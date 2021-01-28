@@ -1,7 +1,56 @@
 <!DOCTYPE html>
 <html>
+<head>
+<style> 
+div {
+  width: 250px;
+  height: 120;
+  background-color: red;
+  animation-name: thisBox;
+  animation-duration: 4s;
+   position: relative;
+}
+p {
+  color : white ;
+  font-size: 30px;
+    animation-name: thisPTxt;
+   animation-duration: 4s;
+  
+}
+p.left {
+  color : white ;
+  font-size: 30px;
+    animation-name: thisPTxt;
+   animation-duration: 4s;
+   text-align: center;
+  
+}
+
+
+@keyframes thisBox {
+  from {background-color: black; top: 0px;}
+  to {background-color: red; top: 200px;}
+ 
+}
+
+@keyframes thisPTxt {
+  from {color: white;}
+  to {color: black;}
+}
+</style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+
+
+<div><p class ="left">N A W A C H A T </p> <p>M U A N N A K </p>
+</div>
+<div>
+<p>TEL  0856619241 </p> <p>N.Muannak@outlook.com </p>
+ <p>resume  https://1drv.ms/b/s!AjdGlWympzsegtN77_MJo9nkTQEdKA?e=JjCdi1</p>
+
+</div>
+
+
 </body>
 </html>
